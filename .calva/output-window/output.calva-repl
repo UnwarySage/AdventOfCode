@@ -1,0 +1,322 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: clojure -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"0.8.3"},cider/cider-nrepl {:mvn/version,"0.26.0"}}}'  -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]"
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉user꞉> 
+; Evaluating file: util.clj
+#'util/load-and-split-lines
+clj꞉util꞉> 
+; Error printing return value (ClassCastException) at clojure.string/split (string.clj:219).
+; java.lang.String cannot be cast to java.util.regex.Pattern
+clj꞉util꞉> 
+; Evaluating file: util.clj
+nil
+clj꞉util꞉> 
+; Error printing return value (ClassCastException) at clojure.string/split (string.clj:219).
+; java.lang.String cannot be cast to java.util.regex.Pattern
+clj꞉util꞉> 
+#'util/load-and-split-lines
+clj꞉util꞉> 
+; Error printing return value (ClassCastException) at clojure.string/split (string.clj:219).
+; java.lang.String cannot be cast to java.util.regex.Pattern
+clj꞉util꞉> 
+; Execution error (ClassCastException) at util/eval7286$fn (REPL:12).
+; java.lang.String cannot be cast to java.util.regex.Pattern
+clj꞉util꞉> 
+#function[util/eval7292/fn--7293]
+clj꞉util꞉> 
+; Execution error (ClassCastException) at util/eval7298$fn (REPL:12).
+; java.lang.String cannot be cast to java.util.regex.Pattern
+clj꞉util꞉> 
+#'util/load-and-split-lines
+clj꞉util꞉> 
+(["188"]
+ ["192"]
+ ["193"]
+ ["194"]
+ ["192"]
+ ["213"]
+ ["214"]
+ ["216"]
+ ["219"]
+ ["221"]
+ ["222"]
+ ["228"]
+ ["231"]
+ ["234"]
+ ["239"]
+ ["240"]
+ ["252"]
+ ["262"]
+ ["267"]
+ ["279"]
+ ["278"]
+ ["277"]
+ ["279"]
+ ["293"]
+ ["309"]
+ ["310"]
+ ["312"]
+ ["307"]
+ ["308"]
+ ["316"]
+ ["320"]
+ ["323"]
+ ["335"]
+ ["336"]
+ ["343"]
+ ["368"]
+ ["357"]
+ ["370"]
+ ["377"]
+ ["386"]
+ ["387"]
+ ["386"]
+ ["402"]
+ ["379"]
+ ["393"]
+ ["394"]
+ ["403"]
+ ["404"]
+ ["405"]
+ ["400"]
+ ...)
+clj꞉util꞉> 
+; Evaluating file: day2.clj
+; Syntax error (FileNotFoundException) compiling at (day2.clj:5:16).
+; res/day2.txtS (No such file or directory)
+; Evaluation of file day2.clj failed: class clojure.lang.Compiler$CompilerException
+
+clj꞉util꞉> 
+clj꞉day2꞉> 
+#object[clojure.lang.Var$Unbound 0x4d060828 "Unbound: #'day2/raw-input"]
+clj꞉day2꞉> 
+; Syntax error (FileNotFoundException) compiling at (REPL:5:16).
+; res/day2.txtS (No such file or directory)
+clj꞉day2꞉> 
+#'day2/raw-input
+clj꞉day2꞉> 
+(["forward" "8"]
+ ["down" "6"]
+ ["down" "8"]
+ ["forward" "7"]
+ ["down" "5"]
+ ["up" "2"]
+ ["down" "3"]
+ ["down" "7"]
+ ["down" "8"]
+ ["down" "8"]
+ ["down" "8"]
+ ["down" "2"]
+ ["up" "1"]
+ ["down" "3"]
+ ["up" "2"]
+ ["down" "4"]
+ ["down" "2"]
+ ["forward" "6"]
+ ["forward" "4"]
+ ["down" "3"]
+ ["down" "2"]
+ ["forward" "2"]
+ ["forward" "1"]
+ ["forward" "4"]
+ ["forward" "5"]
+ ["forward" "8"]
+ ["down" "1"]
+ ["down" "4"]
+ ["up" "5"]
+ ["up" "2"]
+ ["forward" "3"]
+ ["down" "9"]
+ ["forward" "7"]
+ ["forward" "9"]
+ ["forward" "9"]
+ ["forward" "8"]
+ ["down" "1"]
+ ["down" "2"]
+ ["forward" "7"]
+ ["down" "3"]
+ ["forward" "6"]
+ ["down" "4"]
+ ["forward" "7"]
+ ["down" "1"]
+ ["up" "8"]
+ ["forward" "3"]
+ ["down" "1"]
+ ["forward" "7"]
+ ["up" "1"]
+ ["forward" "8"]
+ ...)
+clj꞉day2꞉> 
+; Syntax error compiling at (day2.clj:7:19).
+; Unable to resolve symbol: raw-input in this context
+clj꞉day2꞉> 
+#'day1/raw-input
+clj꞉day1꞉> 
+#'day2/parsed-input
+clj꞉day2꞉> 
+([:forward 8]
+ [:down 6]
+ [:down 8]
+ [:forward 7]
+ [:down 5]
+ [:up 2]
+ [:down 3]
+ [:down 7]
+ [:down 8]
+ [:down 8]
+ [:down 8]
+ [:down 2]
+ [:up 1]
+ [:down 3]
+ [:up 2]
+ [:down 4]
+ [:down 2]
+ [:forward 6]
+ [:forward 4]
+ [:down 3]
+ [:down 2]
+ [:forward 2]
+ [:forward 1]
+ [:forward 4]
+ [:forward 5]
+ [:forward 8]
+ [:down 1]
+ [:down 4]
+ [:up 5]
+ [:up 2]
+ [:forward 3]
+ [:down 9]
+ [:forward 7]
+ [:forward 9]
+ [:forward 9]
+ [:forward 8]
+ [:down 1]
+ [:down 2]
+ [:forward 7]
+ [:down 3]
+ [:forward 6]
+ [:down 4]
+ [:forward 7]
+ [:down 1]
+ [:up 8]
+ [:forward 3]
+ [:down 1]
+ [:forward 7]
+ [:up 1]
+ [:forward 8]
+ ...)
+clj꞉day2꞉> 
+#'day2/update-position
+clj꞉day2꞉> 
+[1016 1022]
+clj꞉day2꞉> 
+1038352
+clj꞉day2꞉> 
+[0 3]
+clj꞉day2꞉> 
+[0 -2]
+clj꞉day2꞉> 
+[9 0]
+clj꞉day2꞉> 
+[0 3]
+clj꞉day2꞉> 
+[9 0]
+clj꞉day2꞉> 
+[0 -2]
+clj꞉day2꞉> 
+[0 3]
+clj꞉day2꞉> 
+1038352
+clj꞉day2꞉> 
+#'day2/offsets
+clj꞉day2꞉> 
+; Execution error (ClassCastException) at day2/offsets (REPL:20).
+; clojure.lang.PersistentVector cannot be cast to java.lang.Number
+clj꞉day2꞉> 
+()
+clj꞉day2꞉> 
+clojure.lang.Numbers/add (Numbers.java:153)
+clojure.core/+ (core.clj:992)
+clojure.core/+ (core.clj:984)
+clojure.lang.ArrayChunk/reduce (ArrayChunk.java:58)
+clojure.core.protocols/fn (protocols.clj:136)
+clojure.core.protocols/fn (protocols.clj:124)
+clojure.core.protocols/fn (protocols.clj:19)
+clojure.core.protocols/seq-reduce (protocols.clj:31)
+clojure.core.protocols/fn (protocols.clj:75)
+clojure.core.protocols/fn (protocols.clj:13)
+clojure.core/reduce (core.clj:6828)
+clojure.core/reduce (core.clj:6810)
+day2/offsets (NO_SOURCE_FILE:20)
+day2/offsets (NO_SOURCE_FILE:18)
+day2/eval7472 (NO_SOURCE_FILE:29)
+clojure.lang.Compiler/eval (Compiler.java:7176)
+clojure.core/eval (core.clj:3214)
+clojure.core/eval (core.clj:3210)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.core/apply (core.clj:665)
+clojure.core/with-bindings* (core.clj:1973)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:87)
+clojure.main/repl (main.clj:414)
+clojure.main/repl (main.clj:435)
+clojure.main/repl (main.clj:345)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:84)
+nrepl.middleware.interruptible-eval/evaluate (interruptible_eval.clj:56)
+nrepl.middleware.interruptible-eval/interruptible-eval (interruptible_eval.clj:152)
+nrepl.middleware.session/session-exec (session.clj:202)
+nrepl.middleware.session/session-exec (session.clj:201)
+java.lang.Thread/run (Thread.java:748)
+clj꞉day2꞉> 
+#'day2/offsets
+clj꞉day2꞉> 
+{:up 0, :down [:down 1], :forward 0}
+clj꞉day2꞉> 
+#'day2/offsets
+clj꞉day2꞉> 
+{:up 0, :down 1, :forward 0}
+clj꞉day2꞉> 
+{:up 0, :down 0, :forward 0}
+clj꞉day2꞉> 
+; Evaluating file: day2.clj
+nil
+clj꞉day2꞉> 
+{:up 1032, :down 2054, :forward 1996}
+clj꞉day2꞉> 
+[1016 1022]
+clj꞉day2꞉> 
+#'day2/final-pos-from-offsets
+clj꞉day2꞉> 
+[1016 1022]
+clj꞉day2꞉> 
+{:up 1032, :down 2054, :forward 1996}
+clj꞉day2꞉> 
+-2039912
+clj꞉day2꞉> 
+#'day2/final-pos-from-offsets
+clj꞉day2꞉> 
+{:up 1032, :down 2054, :forward 1996}
+clj꞉day2꞉> 
+2039912
+clj꞉day2꞉> 
+[1016 1022]
+clj꞉day2꞉> 
+1038352
+clj꞉day2꞉> 
+#'day2/update-position
+clj꞉day2꞉> 

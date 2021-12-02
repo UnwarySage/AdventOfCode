@@ -1,0 +1,1 @@
+["^ ","~$number-str->seq",["^ ","~:row",6,"~:col",1,"~:fixed-arities",["~#set",[1]],"~:name","^0","~:ns","~$day1","~:top-ns","^7","~:arities",["^ ","~i1",["^ ","~:ret","~:seq"]]],"~:filename","/home/unwary/Projects/advent/2021/src/day1.cljs"]

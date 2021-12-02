@@ -1,0 +1,1 @@
+test:src:res:/home/unwary/.m2/repository/babashka/fs/0.1.2/fs-0.1.2.jar:/home/unwary/.m2/repository/org/clojure/clojure/1.10.0/clojure-1.10.0.jar:/home/unwary/.m2/repository/org/clojure/core.specs.alpha/0.2.44/core.specs.alpha-0.2.44.jar:/home/unwary/.m2/repository/org/clojure/spec.alpha/0.2.176/spec.alpha-0.2.176.jar
