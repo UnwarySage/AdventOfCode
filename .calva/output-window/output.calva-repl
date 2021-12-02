@@ -320,3 +320,10 @@ clj꞉day2꞉> 
 clj꞉day2꞉> 
 #'day2/update-position
 clj꞉day2꞉> 
+; Evaluating file: day2.clj
+nil
+clj꞉day2꞉> 
+[1996 972980 1022]
+clj꞉day2꞉> 
+1942068080
+clj꞉day2꞉> 

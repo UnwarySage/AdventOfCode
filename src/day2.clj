@@ -9,11 +9,13 @@
                          (Integer/parseInt distance)])
                           raw-input))
 
-(defn update-position [[x y] [command distance]]
+(defn update-position [[x y aim] [command distance]]
   (cond 
-    (= command :up) [x (- y distance)]
-    (= command :down) [x (+ y distance)]
-    (= command :forward) [(+ x distance) y]))
+    (= command :up) [x y (- aim distance)]
+    (= command :down) [x y (+ aim distance)]
+    (= command :forward) [(+ x distance)
+                          (+ y (* aim distance))
+                          aim]))
 
 (defn offsets [inp-seq]
   {:up (reduce +  (map second (filter #(= :up (first %)) inp-seq)))
@@ -33,7 +35,7 @@
   (offsets [[:down 1]])
   (offsets parsed-input)
   
-  (reduce update-position [0 0] parsed-input)
-  (* 1016 1022)
+  (reduce update-position [0 0 0] parsed-input)
+  (* 1996 10)
   (final-pos-from-offsets {:up 1032, :down 2054, :forward 1996})
   )
